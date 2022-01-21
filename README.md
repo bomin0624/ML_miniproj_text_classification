@@ -16,16 +16,19 @@ This dataset is generated from GEO (a well-known semantic parsing dataset). The 
 ```
                precision    recall  f1-score   support
 
-           0       0.99      0.94      0.96      3097
-           1       0.60      0.86      0.71       303
+           0       0.99      0.95      0.97      3097
+           1       0.61      0.89      0.73       303
 
     accuracy                           0.94      3400
-   macro avg       0.79      0.90      0.84      3400
-weighted avg       0.95      0.94      0.94      3400
+   macro avg       0.80      0.92      0.85      3400
+weighted avg       0.96      0.94      0.95      3400
 
-(0.5995423340961098, 0.8646864686468647, 0.708108108108108)
+(0.6141552511415526, 0.8877887788778878, 0.7260458839406209)
 
 ```
+### License
+MIT
+
 ### Reference:
 
 * [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html?fbclid=IwAR1KYu42yljTvDdAdoOtUiOZt_1YMsN3u6HgzidwrUSr67NzEgLFDO2MKJE)
@@ -35,3 +38,7 @@ weighted avg       0.95      0.94      0.94      3400
 * [Cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html)
 
 * [tf-idf](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+
+### TODO:
+1. Try LightGBM to see if it can improve the accuracy.
+2. Adjusting the parameters.
