@@ -14,7 +14,7 @@ This dataset is generated from GEO (a well-known semantic parsing dataset). The 
 ### Our Model performance 
 
 ```
-             precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
            0       0.99      0.94      0.96      3097
            1       0.60      0.86      0.71       303
